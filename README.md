@@ -30,19 +30,19 @@ text = "Natural Language Processing using N-grams is incredibly awesome."
 generate_n_grams(text, 2)
 ```
 
-[]: # (Above code generates bigrams Set the ngram parameter value to 2, 
-    change this value for trigrams and so on)
+<!--- Above code generates bigrams Set the ngram parameter value to 2, 
+    change this value for trigrams and so on) --->
 
  
 
 Results:
-[]: #('Natural', 'Language')
+<!---('Natural', 'Language')
 ('Language', 'Processing')
 ('Processing', 'using')
 ('using', 'N-grams')
 ('N-grams', 'is')
 ('is', 'incredibly')
-('incredibly', 'awesome.'))
+('incredibly', 'awesome.')--->
 
 
 See full notebook
