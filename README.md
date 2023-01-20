@@ -50,13 +50,13 @@ Results:
 
 # Example Applications of n-grams in NLP
 
-We can use them to create features from text corpus for machine learning algorithms like SVM, Naive Bayes, etc.
+* We can use them to create features from text corpus for machine learning algorithms like SVM, Naive Bayes, etc.
 
-They help develop functions like:
-* Autocorrect.
-* Autocompletion of sentences.
-* Text summarization.
-* Speech recognition.
-* Dictionary lookup.
-* Text compression.
-* Language identification, etc.
+* They help develop functions like:
+  * Autocorrect.
+  * Autocompletion of sentences.
+  * Text summarization.
+  * Speech recognition.
+  * Dictionary lookup.
+  * Text compression.
+  * Language identification, etc.
