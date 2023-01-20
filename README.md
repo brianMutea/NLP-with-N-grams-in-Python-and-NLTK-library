@@ -18,7 +18,7 @@ We can quickly and easily generate n-grams with the ngrams function available in
 
 Use the following sentence for instance:
 
-"Natural Language Processing using N-grams is incredibly awesome."
+<i>"Natural Language Processing using N-grams is incredibly awesome."</i>
 
 ## Code example producing N-grams
 
