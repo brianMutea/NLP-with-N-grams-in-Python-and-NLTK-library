@@ -23,25 +23,26 @@ Use the following sentence for instance:
 ```from nltk.util import ngrams 
 
 def generate_n_grams(text, ngram=1):
-    unigrams = ngrams(sentence.split(), n)
-    for item in unigrams:
-        return item
+  unigrams = ngrams(text.split(), ngram)
+  return [unigram for unigram in unigrams]
 
-text = "Natural Language Processing using N-grams is incredibly awesome."```
+text = "Natural Language Processing using N-grams is incredibly awesome."
+generate_n_grams(text, 2)
+```
 
-Generate bigrams Set the ngram parameter value to 2, 
-    change this value for trigrams and so on
+[]: # (Above code generates bigrams Set the ngram parameter value to 2, 
+    change this value for trigrams and so on)
 
-generate_n_grams(text, 2) 
+ 
 
 Results:
-```('Natural', 'Language')
+[]: #('Natural', 'Language')
 ('Language', 'Processing')
 ('Processing', 'using')
 ('using', 'N-grams')
 ('N-grams', 'is')
 ('is', 'incredibly')
-('incredibly', 'awesome.') ```
+('incredibly', 'awesome.'))
 
 
 See full notebook
