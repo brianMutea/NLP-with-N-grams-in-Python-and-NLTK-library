@@ -18,7 +18,7 @@ Use the following sentence for instance:
 
 "Natural Language Processing using N-grams is incredibly awesome."
 
-## Code
+## Code example producing N-grams
 
 ```Python
 from nltk.util import ngrams 
@@ -44,4 +44,17 @@ Results:
 ('incredibly', 'awesome.')</pre>
 
 
-See full notebook
+<b>[See full notebook to learn more about implementing n-grams](www.github.com)</b>
+
+# Example Applications of n-grams in NLP
+
+We can use them to create features from text corpus for machine learning algorithms like SVM, Naive Bayes, etc.
+
+They help develop functions like:
+ - Autocorrect.
+ - Autocompletion of sentences.
+ - Text summarization.
+ - Speech recognition.
+ - Dictionary lookup.
+ - Text compression.
+ - Language identification, etc.
