@@ -20,7 +20,8 @@ Use the following sentence for instance:
 
 ## Code
 
-```from nltk.util import ngrams 
+```Python
+from nltk.util import ngrams 
 
 def generate_n_grams(text, ngram=1):
   unigrams = ngrams(text.split(), ngram)
@@ -29,10 +30,8 @@ def generate_n_grams(text, ngram=1):
 text = "Natural Language Processing using N-grams is incredibly awesome."
 generate_n_grams(text, 2)
 ```
-
-<!--- Above code generates bigrams Set the ngram parameter value to 2, 
-    change this value for trigrams and so on) --->
-
+<p> Above code generates bigrams Set the ngram parameter value to 2, 
+    change this value for trigrams and so on...</p>
 
 Results:
 <pre>
