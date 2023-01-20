@@ -1,5 +1,7 @@
 # NLP-with-N-grams-in-Python-and-NLTK-library
 
+<b>[See full notebook to learn more about implementing n-grams](https://github.com/brianMutea/NLP-with-N-grams-in-Python-and-NLTK-library/blob/main/N-grams%20in%20Python%20and%20Implementing%20them%20with%20Python%20NLTK%20library..ipynb)</b>
+
 N-grams, therefore, are a type of statistical language model used in Natural Language Processing (NLP) to predict the possibility 
 of a sequence of words. An n-gram is a contiguous series of n items from a given text sample where "n" is the number of items in the sequence.
 
@@ -44,17 +46,17 @@ Results:
 ('incredibly', 'awesome.')</pre>
 
 
-<b>[See full notebook to learn more about implementing n-grams](www.github.com)</b>
+<b>[See full notebook to learn more about implementing n-grams](https://github.com/brianMutea/NLP-with-N-grams-in-Python-and-NLTK-library/blob/main/N-grams%20in%20Python%20and%20Implementing%20them%20with%20Python%20NLTK%20library..ipynb)</b>
 
 # Example Applications of n-grams in NLP
 
 We can use them to create features from text corpus for machine learning algorithms like SVM, Naive Bayes, etc.
 
 They help develop functions like:
- * Autocorrect.
- * Autocompletion of sentences.
- * Text summarization.
- * Speech recognition.
- * Dictionary lookup.
- * Text compression.
- * Language identification, etc.
+* Autocorrect.
+* Autocompletion of sentences.
+* Text summarization.
+* Speech recognition.
+* Dictionary lookup.
+* Text compression.
+* Language identification, etc.
