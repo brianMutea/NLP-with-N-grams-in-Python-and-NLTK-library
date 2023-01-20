@@ -33,16 +33,16 @@ generate_n_grams(text, 2)
 <!--- Above code generates bigrams Set the ngram parameter value to 2, 
     change this value for trigrams and so on) --->
 
- 
 
 Results:
-<!---('Natural', 'Language')
+<pre>
+('Natural', 'Language')
 ('Language', 'Processing')
 ('Processing', 'using')
 ('using', 'N-grams')
 ('N-grams', 'is')
 ('is', 'incredibly')
-('incredibly', 'awesome.')--->
+('incredibly', 'awesome.')</pre>
 
 
 See full notebook
